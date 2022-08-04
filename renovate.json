@@ -2,12 +2,12 @@
 	"baseBranches": ["dev", "main"],
 	"packageRules": [{
 		"groupName": "prod",
-		"matchPaths": ["sub/**"],
+		"matchPaths": ["prod/**/sub3"],
 		"addLabels": ["prod"]
 	},
   {
 		"groupName": "dev",
-		"matchPaths": ["sub2/**"],
+		"matchPaths": ["dev/**/sub3"],
 		"addLabels": ["dev"]
 	}]
 }
