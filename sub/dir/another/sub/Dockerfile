@@ -1,1 +1,1 @@
-From ubuntu:jammy
+From ubuntu:16.04
