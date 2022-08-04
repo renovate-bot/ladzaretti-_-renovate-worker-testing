@@ -1,12 +1,16 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "baseBranches": ["dev","main"],
-  "packageRules": [
+	"extends": [
+		"config:base"
+	],
+	"baseBranches": ["dev", "main"],
+	"packageRules": [{
+		"groupName": "prod",
+		"matchPaths": ["sub/**"],
+		"addLabels": ["prod"]
+	},
   {
-      "groupName": "production",
-        "matchPackagePatterns": ["*"],
-    "addLabels": ["prod"]
-  }]
+		"groupName": "dev",
+		"matchPaths": ["sub2/**"],
+		"addLabels": ["dev"]
+	}]
 }
