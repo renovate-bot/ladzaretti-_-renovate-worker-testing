@@ -6,7 +6,7 @@
   "packageRules": [
   {
       "groupName": "production",
-      "matchFiles": ["Dockerfile"],
+        "matchPackagePatterns": ["*"],
     "addLabels": ["prod"]
   }]
 }
