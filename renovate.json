@@ -7,6 +7,6 @@
   {
       "groupName": "production",
       "matchFiles": ["Dockerfile"],
-    "labels": ["prod"]
+    "addLabels": ["prod"]
   }]
 }
