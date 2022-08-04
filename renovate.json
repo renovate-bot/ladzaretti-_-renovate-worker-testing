@@ -7,6 +7,6 @@
   {
       "groupName": "production",
       "matchPaths": ["sub/**/sub"],
-      "labels": ["prod"],
+      "labels": ["prod"]
   }]
 }
