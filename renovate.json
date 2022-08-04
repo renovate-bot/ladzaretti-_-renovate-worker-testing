@@ -6,7 +6,7 @@
   "packageRules": [
   {
       "groupName": "production",
-      "matchPaths": ["sub/**"],
-      "labels": ["prod"]
+      "matchFiles": ["Dockerfile"],
+    "labels": ["prod"]
   }]
 }
