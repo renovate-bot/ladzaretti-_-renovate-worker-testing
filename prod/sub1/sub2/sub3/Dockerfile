@@ -1,1 +1,1 @@
-FROM ubuntu:18.04
+FROM node:16.8.0
