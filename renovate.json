@@ -1,16 +1,17 @@
 {
 	"baseBranches": ["dev", "main"],
 	"packageRules": [{
-		"groupName": "prod",
-		"matchPaths": ["prod/**/sub3"],
-		"addLabels": ["prod"]
-	},
-  {
-		"groupName": "dev",
-		"matchPaths": ["dev/**/sub3"],
-		"addLabels": ["dev"]
-	},
-		"matchManagers": ["nodenv"],
-    		"ignoreUnstable": "false"
-  }]
+			"groupName": "prod",
+			"matchPaths": ["prod/**/sub3"],
+			"addLabels": ["prod"]
+		},
+		{
+			"groupName": "dev",
+			"matchPaths": ["dev/**/sub3"],
+			"addLabels": ["dev"]
+		}, {
+			"matchManagers": ["nodenv"],
+			"ignoreUnstable": "false"
+		}
+	]
 }
