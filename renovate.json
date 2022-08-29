@@ -9,5 +9,8 @@
 		"groupName": "dev",
 		"matchPaths": ["dev/**/sub3"],
 		"addLabels": ["dev"]
-	}]
+	},
+		"matchManagers": ["nodenv"],
+    		"ignoreUnstable": "false"
+  }]
 }
