@@ -1,5 +1,9 @@
 {
   "dependencies": {
      "luxon": "3.0.0"
+  },
+  "packageRules":{
+    "matchManagers": ["node-env"],
+    "ignoreUnstable": "false"
   }
 }
