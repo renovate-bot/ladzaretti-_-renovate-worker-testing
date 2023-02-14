@@ -1,5 +1,6 @@
 {
   "baseBranches": ["dev", "main"],
+  "dependencyDashboard": "true",
   "packageRules": [{
     "groupName": "prod",
     "matchPaths": ["prod/**/sub3"],
