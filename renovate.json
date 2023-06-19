@@ -1,5 +1,4 @@
 {
-  "baseBranches": ["dev", "main"],
   "dependencyDashboard": "true",
   "packageRules": [{
     "groupName": "prod",
