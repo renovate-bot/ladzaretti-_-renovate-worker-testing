@@ -1,5 +1,8 @@
 {
   "dependencyDashboard": "true",
+  "schedule": [
+    "* 0-3 * * 1"
+  ],
   "packageRules": [{
     "groupName": "prod",
     "matchPaths": ["prod/**/sub3"],
